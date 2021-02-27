@@ -37,8 +37,6 @@ function compute()
 
    		document.getElementById("principal").focus();
 
-   		document.getElementById("principal").click();
-
    		return null;
 	}
 	
