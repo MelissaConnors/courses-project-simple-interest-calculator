@@ -1,4 +1,11 @@
+/*
+Melissa Connors
+edX IBM Introduction to Cloud Development
+*/
+
+/* Followed specifications */
 body {
+	color: white;
 	background-color: black; 
 	font-family: arial;
 }
@@ -8,15 +15,40 @@ h1 {
 	font-family: verdana;
 }
 
+/* Center the div in the middle of the screen */
 .maindiv {
+
 	background-color: white;
 	color: black; 
-	font-family: verdana;
+	width: 300 pixels;
 	padding: 20px 20px 20px 20px;
-	width: 300px;
   	border-radius: 25px;
 	position: fixed;
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
+}
+
+/* Center the table horizintally to match screenshot from final project */
+table { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Table spacing */
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+/* Remove the arrows from the input number Amount field to match screenshot of final project */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*  Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
