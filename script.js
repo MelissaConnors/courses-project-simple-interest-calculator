@@ -36,6 +36,9 @@ function compute()
    		alert("The Amount must be greater than zero.");
 
    		document.getElementById("principal").focus();
+		document.getElementById("principal").click();
+
+   		return null;
 
 	}
 	
