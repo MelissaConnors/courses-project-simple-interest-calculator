@@ -37,7 +37,6 @@ function compute()
 
    		document.getElementById("principal").focus();
 
-   		return null;
 	}
 	
 	var rate = document.getElementById("rate").value;
