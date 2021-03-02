@@ -52,3 +52,9 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+/*Stop the resizing on the slider span */
+.fixedrate {
+  display: inline-block;
+  width: 55px;	
+}
